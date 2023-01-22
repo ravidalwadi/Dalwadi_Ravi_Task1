@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-image: url("../images/R.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container {
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left {
+    background-color: rgba(3, 0, 0, 0.5);
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+}
+
+.left-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.left-sub-container{
+    background-image: url("../images/ravi.jpeg");
+    height: 90%;
+    width: 80%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.right-content {
+    background-color: rgba(0, 6, 0, 0.5);
+    width: 60%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.right-sub-container {
+    background-color: rgb(194, 194, 237);
+
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+
+}
+
+h1 {
+    width: 90%;
+    color: black;
+    font-size: 35px;
+}
+
+.right-sub-q1 {
+    color: white;
+}
